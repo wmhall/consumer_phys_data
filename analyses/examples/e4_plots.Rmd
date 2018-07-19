@@ -1,0 +1,26 @@
+---
+title: "E4 plots"
+author: "William Hall"
+date: "July 18, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+## R Markdown
+
+These plots show the inter-beat intervals from the E4 device. The red lines represent the point at which participants pressed the event button on the E4 device and mark different portions of the study protocol (e.g. baseline, stressor, etc.). Each plot is labeled with a unique identifier.  
+
+
+```{r plot e4 data, warning=FALSE, cache=TRUE}
+e4_plots <- 
+read_rds(here("data/preprocessed/g4_plot_data.rds"))
+
+walk(e4_plots$plot, print)
+
+```
+
