@@ -3,9 +3,6 @@ E4 plots
 William Hall
 July 18, 2018
 
-R Markdown
-----------
-
 These plots show the inter-beat intervals from the E4 device. The red lines represent the point at which participants pressed the event button on the E4 device and mark different portions of the study protocol (e.g. baseline, stressor, etc.). Each plot is labeled with a unique identifier.
 
 ``` r

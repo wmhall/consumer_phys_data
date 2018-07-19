@@ -39,3 +39,4 @@ rsconnect/
 *.csv
 *.rds
 *.zip
+.Rproj.user
